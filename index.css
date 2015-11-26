@@ -1,0 +1,64 @@
+html {
+	background: url("comingsoon.png") no-repeat center center fixed; 
+  -webkit-background-size: 50%;
+  -moz-background-size: 50%;
+  -o-background-size: 50%;
+  background-size: 50%;
+  background-color: #000;
+
+}
+ 
+h1{ 
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 40pt;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 45px;
+}
+
+.comingsoon {
+	width: 100vw;
+	height: 100vh;
+	position: center;
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #C31D1D;
+}
+
+@media screen and (max-width: 1024px){
+
+	h1{font-size: 30pt}
+}
+
+@media screen and (max-width: 600px){
+	html {
+		background-size: 50vw;
+		background-position: center;
+	}
+	h1{
+		font-size: 20pt;
+		color: white;
+		padding-bottom: 30px;
+
+	}
+}
+
+@media screen and (max-width: 350px){
+
+	h1{font-size: 15pt}
+}
+
+@media screen and (max-height: 900px){
+	h1{margin-top: 15vh;}
+}
+@media screen and (max-height: 560px){
+	h1{margin-top: 0;}
+}
