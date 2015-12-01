@@ -1,0 +1,75 @@
+html {
+	background: url("images/foldedmock.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+.header {
+	background-color: #000;
+	opacity: .75;
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100px;
+}
+
+h1 {
+	font-family: "Montserrat";
+	font-weight: 700;
+	text-align: right;
+	font-size: 15pt;
+	vertical-align: middle;
+	padding-right: 50px;
+	padding-top: 25px;
+	letter-spacing: 10px;
+	color: white;
+
+
+
+}
+
+h2 {
+	font-family: "Lora";
+	font-weight: 700;
+	letter-spacing: 20px;
+	line-height: 100%;
+	color: white;
+	vertical-align: middle;
+	padding-left: 50px;
+	padding-top: 5px;
+
+
+}
+
+.leftheader {
+	float: left;
+	width: 49vw;
+	position: relative;
+	display: inline-block;
+	height: 100px;
+	margin: 0;
+
+
+}
+
+.rightheader {
+	float: right;
+	width: 49vw;
+	position: relative;
+	display: inline-block;
+	height: 100px;
+
+}
+
