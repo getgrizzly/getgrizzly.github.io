@@ -16,13 +16,21 @@ body {
 }
 
 
-.header {
+header {
 	background-color: #000;
 	opacity: .75;
-	margin: 0;
+	margin-top: -16px;
 	padding: 0;
 	width: 100vw;
 	height: 100px;
+	position: fixed;
+	transition: all 0.4s ease;
+}
+
+header.scroll {
+	height: 50px;
+	transition: all 0.4s ease;
+	background-color: #fff;
 }
 
 h1 {
@@ -33,24 +41,41 @@ h1 {
 	vertical-align: middle;
 	padding-right: 50px;
 	padding-top: 25px;
-	letter-spacing: 10px;
 	color: white;
+	transition: all 0.4s ease;
+}
 
+h1.scroll {
+	padding-top: 0px;
+	text-align: left;
+	transition: all 0.4s ease;
+	color: black;
+}
 
-
+.ltrspc10 {
+	letter-spacing: 10px;
 }
 
 h2 {
 	font-family: "Lora";
-	font-weight: 700;
+	font-weight: 400;
 	letter-spacing: 20px;
 	line-height: 100%;
 	color: white;
 	vertical-align: middle;
 	padding-left: 50px;
-	padding-top: 5px;
+	padding-top: 6px;
+	transition: all 0.4s ease;
+}
 
-
+h2.scroll{
+	transition: all 0.4s ease;
+	padding-top: 17px;
+	padding-bottom: 0px;
+	margin: 0;
+	text-align: right;
+	font-size: 15pt;
+	color: black;
 }
 
 .leftheader {
@@ -60,6 +85,7 @@ h2 {
 	display: inline-block;
 	height: 100px;
 	margin: 0;
+}
 
 
 }
@@ -70,6 +96,26 @@ h2 {
 	position: relative;
 	display: inline-block;
 	height: 100px;
-
 }
 
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	border-bottom: solid 2.5px white;
+	padding-bottom: 2px;
+	opacity: 1;
+}
+
+a.scroll {
+	text-decoration: none;
+	color: black;
+}
+
+a.scroll:hover {
+	border-bottom: solid 2.5px black;
+	padding-bottom: 2px;
+	opacity: 1;
+}
