@@ -82,14 +82,24 @@ h2.scroll{
 	float: left;
 	width: 49vw;
 	position: relative;
+	display: inline-block;
 	height: 100px;
 	margin: 0;
+}
+
+.leftheader.a {
+	text-decoration: none;
+}
+
+.leftheader.a:hover {
+	text-decoration: none;
 }
 
 .rightheader {
 	float: right;
 	width: 49vw;
 	position: relative;
+	display: inline-block;
 	height: 100px;
 }
 
