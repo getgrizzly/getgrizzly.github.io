@@ -25,6 +25,7 @@ header {
 	height: 100px;
 	position: fixed;
 	transition: all 0.4s ease;
+	z-index: 1;
 }
 
 header.scroll {
@@ -123,4 +124,130 @@ a.scroll:hover {
 	border-bottom: solid 2.5px black;
 	padding-bottom: 2px;
 	opacity: 1;
+}
+
+topgap {
+	width: 100vw;
+	height: 150px;
+	background-color: none;
+	opacity: .5;
+	display: inline-block;
+	position: relative;
+	z-index: -1;
+}
+
+.main {
+	background-color: rgba(0,0,0,.75);
+	width: 85vw;
+	height: 1900px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 3px white;
+	z-index: -2;
+}
+
+.banner {
+	padding-top: 15px;
+	opacity: .75;
+}
+h3 {
+	font-family: "Montserrat";
+	font-weight: 700;
+	text-align: center;
+	font-size: 12pt;
+	vertical-align: middle;
+	padding-right: 0px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	color: white;
+	letter-spacing: 8px;
+	border-top: solid 1px white;
+	border-bottom: solid 1px white;
+	width: 650px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+h4 {
+	font-family: "Lora";
+	font-weight: 400;
+	font-size: 55pt;
+	color: white;
+	vertical-align: middle;
+	text-align: center;
+	padding-left: 0px;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.ltrspc20 {
+	letter-spacing: 20px;
+}
+
+.main > .product {
+	opacity: 1; !
+}
+
+.shirtsection {
+	width: 725px;
+	height: 570px;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	background-color: rgba(255,255,255,.1);
+	box-shadow: 0px 0px 35px 15px rgba(255,255,255,.1);
+}
+
+.leftshirt {
+	float: left;
+	width: 332px;
+	height: 590px;
+	margin-left: auto;
+	padding-left: 25px;
+}
+
+.rightshirt {
+	float: right;
+	width: 332px;
+	height: 590px;
+	margin-right: auto;
+	padding-right: 25px;
+}
+
+.checkout {
+	width: 725px;
+	height: 310px;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	background-color: none;
+}
+
+.summary {
+	width: 332px;
+	height: 300px;
+	background-color: red;
+	float:left;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.product {
+	width: 332px;
+	height: 300px;
+	background-color: yellow;
+	float:right;
+	.summary {
+	width: 40vw;
+	height: 300px;
+	background-color: red;
+	float:left;
+}
 }
