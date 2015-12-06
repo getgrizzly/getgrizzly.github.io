@@ -41,13 +41,13 @@ h1 {
 	font-size: 15pt;
 	vertical-align: middle;
 	padding-right: 50px;
-	padding-top: 25px;
+	padding-top: 33px;
 	color: white;
 	transition: all 0.4s ease;
 }
 
 h1.scroll {
-	padding-top: 0px;
+	padding-top: 7px;
 	text-align: left;
 	transition: all 0.4s ease;
 	color: black;
@@ -65,18 +65,18 @@ h2 {
 	color: white;
 	vertical-align: middle;
 	padding-left: 50px;
-	padding-top: 6px;
+	padding-top: 13px;
 	transition: all 0.4s ease;
 }
 
 h2.scroll{
 	transition: all 0.4s ease;
-	padding-top: 17px;
+	padding-top: 23px;
 	padding-bottom: 0px;
 	margin: 0;
 	text-align: right;
 	font-size: 15pt;
-	color: black;
+	color: black; !important
 }
 
 .leftheader {
@@ -122,7 +122,7 @@ a.scroll {
 
 a.scroll:hover {
 	border-bottom: solid 2.5px black;
-	padding-bottom: 2px;
+	padding-bottom: 1px;
 	opacity: 1;
 }
 
@@ -139,7 +139,7 @@ topgap {
 .main {
 	background-color: rgba(0,0,0,.75);
 	width: 85vw;
-	height: 1900px;
+	height: 1435px;
 	margin-left: auto;
 	margin-right: auto;
 	border: solid 3px white;
@@ -230,24 +230,84 @@ h4 {
 }
 
 .summary {
-	width: 332px;
-	height: 300px;
-	background-color: red;
+	width: 725px;
+	height: 175px;
+	background-color: none;
 	float:left;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 }
 
-.product {
-	width: 332px;
-	height: 300px;
-	background-color: yellow;
-	float:right;
-	.summary {
-	width: 40vw;
-	height: 300px;
-	background-color: red;
-	float:left;
+.summarytitle {
+	font-family: "Montserrat";
+	font-size: 15pt;
+	color: white;
+	font-weight: 100;
 }
+
+p {
+	font-family: "lora";
+	font-size: 12pt;
+	color: white;
+	font-weight: 400;
+
+}
+.product {
+	width: 725px;
+	height: 300px;
+	background-color: none;
+	float:right;
+}
+
+.disclaimer {
+	padding-top: 50px;
+	display: inline-block;
+}
+
+footer {
+	max-width: 100vw;
+	height: 50px;
+	background-color: white;
+	opacity: .75;
+	margin-top: 35px;
+	vertical-align: middle;
+	padding-left: 50px;
+
+}
+
+footer img {
+	max-height:40px;
+	vertical-align: middle;
+	margin-left: 20px;
+	padding-top: 5px;
+	float: left;
+}
+
+footer p {
+	float: left;
+	color: black;
+	font-family: "Montserrat";
+	padding-left: 20px;
+}
+
+footer p:hover{
+	text-decoration: underline;
+}
+
+usa {
+	font-family: "Lora";
+	font-weight: 400;
+	letter-spacing: 10px;
+	float:right;
+}
+usa text {
+	float:left;
+	text-align: left;
+	letter-spacing: 2px;
+}
+usa img {
+	height:40px;
+	width: 71px;
+	padding-right: 50px;
 }
