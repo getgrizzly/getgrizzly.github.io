@@ -231,12 +231,13 @@ h4 {
 
 .summary {
 	width: 725px;
-	height: 175px;
+	height: 150px;
 	background-color: none;
 	float:left;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	border-bottom: solid 2px white
 }
 
 .summarytitle {
@@ -253,11 +254,39 @@ p {
 	font-weight: 400;
 
 }
-.product {
-	width: 725px;
+.productleft {
+	width: 360px;
+	height: 300px;
+	background-color: none;
+	float:left;
+	margin-bottom: 50px;
+	border-right: solid 2px white;
+}
+
+.productright{
+	width: 360px;
 	height: 300px;
 	background-color: none;
 	float:right;
+	margin-bottom: 50px;
+}
+
+.productright p {
+	text-align: right;
+	font-size: 10pt;
+}
+
+.productleft p {
+	text-align: left;
+	font-size: 10pt;
+}
+
+.paypalsection {
+	vertical-align: middle;
+	display: block;
+	padding-left: auto;
+	padding-right: auto;
+
 }
 
 .disclaimer {
@@ -266,13 +295,14 @@ p {
 }
 
 footer {
-	max-width: 100vw;
+	width: 100vw;
 	height: 50px;
 	background-color: white;
 	opacity: .75;
 	margin-top: 35px;
 	vertical-align: middle;
 	padding-left: 50px;
+	display: inline-block;
 
 }
 
