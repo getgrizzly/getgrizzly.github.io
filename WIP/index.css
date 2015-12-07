@@ -7,11 +7,15 @@ html {
   background-color: #000;
   margin: 0;
   padding: 0;
+  max-width: 100%;
 
 }
 
 body {
-	margin: 0;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom: 0;
+	width: 100vw;
 	padding: 0;
 }
 
@@ -139,7 +143,7 @@ topgap {
 .main {
 	background-color: rgba(0,0,0,.75);
 	width: 85vw;
-	height: 1435px;
+	height: 1180px;
 	margin-left: auto;
 	margin-right: auto;
 	border: solid 3px white;
@@ -255,54 +259,79 @@ p {
 
 }
 .productleft {
-	width: 360px;
-	height: 300px;
+	width: 340px;
+	height: 160px;
 	background-color: none;
 	float:left;
-	margin-bottom: 50px;
-	border-right: solid 2px white;
+	margin-bottom: 10px;
 }
 
 .productright{
-	width: 360px;
-	height: 300px;
+	width: 340px;
+	height: 160px;
 	background-color: none;
 	float:right;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 }
 
 .productright p {
-	text-align: right;
-	font-size: 10pt;
-}
-
-.productleft p {
 	text-align: left;
 	font-size: 10pt;
 }
 
-.paypalsection {
+.productleft p {
+	text-align: right;
+	font-size: 10pt;
+}
+
+.paypalleft {
 	vertical-align: middle;
 	display: block;
-	padding-left: auto;
-	padding-right: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width:135px;
+	height:40px;
+}
 
+.paypalright {
+	vertical-align: middle;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:135px;
+	height:40px;
 }
 
 .disclaimer {
-	padding-top: 50px;
 	display: inline-block;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 725px;
+
+
+}
+
+.disclaimer p {
+	font-size: 10pt;
+	font-style: italic;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	border-top: solid 2px white;
+	padding-top: 10px;
 }
 
 footer {
-	width: 100vw;
+	width: 90vw;
 	height: 50px;
 	background-color: white;
 	opacity: .75;
 	margin-top: 35px;
-	vertical-align: middle;
 	padding-left: 50px;
-	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
 
 }
 
@@ -339,5 +368,5 @@ usa text {
 usa img {
 	height:40px;
 	width: 71px;
-	padding-right: 50px;
+	padding-right: 80px;
 }

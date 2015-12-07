@@ -1,26 +1,86 @@
-@media screen and (max-width: 1024px){
-
-	h1{font-size: 30pt}
-}
-
-@media screen and (max-width: 600px){
+@media screen and (max-width: 900px){
+	
 	html {
-}
-	h1 {
-		font-size: 20pt;
-		color: white;
-		padding-bottom: 30px;
+		background-image: none;
 	}
+
+	body {
+		margin-left: auto;
+		margin-right: auto;
+		background-color: rgba(0,0,0,.75);
+	}
+
+	h2 {
+		font-size: 12pt;
+		padding-top: 20px;
+	}
+
+	h2.scroll {
+		display: none;
+	}
+
+	h1 {
+		font-size: 12pt;
+		padding-top: 25px;
+	}
+
+	h1.scroll {
+		display: none;
+	}
+
+	header {
+		height: 80px;
+		border-bottom: solid 2px white;
+	}
+
+	topgap {
+		height: 100px;
+	}
+
+	header.scroll {
+		display: none;
+	}
+
+	h4 {
+		font-size: 30pt;
+	}
+
+	.main {
+		max-width: 95vw;
+		border: none;
+		background-color: rgba(0,0,0,.0);
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.shirtsection {
+		max-width: 95vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.checkout {
+		max-width: 95vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.summary {
+		max-width: 95vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.disclaimer {
+		max-width: 95vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.disclaimer {
+		border-bottom: solid 2px white;
+	}
+
+
 }
 
-@media screen and (max-width: 350px){
-
-	h1{font-size: 15pt}
-}
-
-@media screen and (max-height: 900px){
-	h1{margin-top: 15vh;}
-}
-@media screen and (max-height: 560px){
-	h1{margin-top: 0;}
-}
