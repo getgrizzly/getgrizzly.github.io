@@ -12,7 +12,7 @@
 
 	h2 {
 		font-size: 12pt;
-		padding-top: 20px;
+		padding-top: 15px;
 	}
 
 	h2.scroll {
@@ -21,7 +21,7 @@
 
 	h1 {
 		font-size: 12pt;
-		padding-top: 25px;
+		padding-top: 22px;
 	}
 
 	h1.scroll {
@@ -57,28 +57,46 @@
 		max-width: 95vw;
 		margin-left: auto;
 		margin-right: auto;
+		background-color: rgba(255,255,255,0);
+		box-shadow: none;
 	}
 
 	.checkout {
-		max-width: 95vw;
+		max-width: 80vw;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
 	.summary {
-		max-width: 95vw;
+		max-width: 80vw;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
-	.disclaimer {
-		max-width: 95vw;
-		margin-left: auto;
-		margin-right: auto;
+	.productleft {
+		width: 280px;
+		display: inline;
 	}
 
+	.productright {
+		width: 280px;
+		display: inline;
+	}
+
+
 	.disclaimer {
+		max-width: 80vw;
+		margin-left: auto;
+		margin-right: auto;
 		border-bottom: solid 2px white;
+	}
+
+	.disclaimer {
+		
+	}
+
+	footer {
+		width: 90vw;
 	}
 
 
