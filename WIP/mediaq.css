@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px){
+@media screen and (max-width: 950px){
 	
 	html {
 		background-image: none;
@@ -63,6 +63,7 @@
 
 	.checkout {
 		max-width: 80vw;
+		height: 205px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -88,7 +89,8 @@
 		max-width: 80vw;
 		margin-left: auto;
 		margin-right: auto;
-		border-bottom: solid 2px white;
+		margin-top: 30px; 
+
 	}
 
 	.disclaimer {
@@ -98,6 +100,50 @@
 	footer {
 		width: 90vw;
 	}
+
+
+}
+
+@media screen and (max-width: 800px){
+
+	.main {
+		height: 1090px;
+	}
+
+	.shirtsection {
+		width: 80vw;
+		height: 580px;
+
+	}
+
+	.shirt {
+		width: 275px;
+		height: 489px;
+		padding-top: 30px;
+
+	}
+
+	.summary {
+		width: 275px;
+		font-size: 8pt;
+		padding-top: 50px;
+
+	}
+
+	.summary > p {
+		font-size: 10pt;
+	}
+
+	.clickexplain {
+		padding-left: 80px;
+		padding-top: 480px;
+	}
+}
+
+
+@media screen and (max-width: 750px){
+
+
 
 
 }
